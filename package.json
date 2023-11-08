@@ -1,0 +1,16 @@
+{
+  "name": "santa",
+  "version": "1.0.0",
+  "description": "An app which permutes over a group of people, selects who is the Santa for whom and sends them emails about the draw results",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mateusz Piątkowski",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "nodemailer": "^6.9.7",
+    "tau-prolog": "^0.3.4"
+  }
+}
